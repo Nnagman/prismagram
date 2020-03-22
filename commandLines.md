@@ -15,3 +15,5 @@ prisma init
 git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch prisma.yml' --prune-empty --tag-name-filter cat -- --all
 git push origin master --force
 //실수로 올린 파일들 전부 삭제하기
+
+npm intall nodemailer

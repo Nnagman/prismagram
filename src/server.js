@@ -1,7 +1,15 @@
-require("dotenv").config();
+import dotenv from "dotenv";
+import path from "path";
+dotenv.config({ path: path.resolve(__dirname, ".env") });
+
 import { GraphQLServer } from "graphql-yoga";
 import logger from "morgan";
 import schema from "./schema";
+
+import { sendSecretMail, generateSecret } from "./utils";
+
+const loginSecret = generateSecret();
+sendSecretMail("nnagman@gmail.com", loginSecret);
 
 const PORT = process.env.PORT || 4000;
 //process.new.PORT를 읽어서 PORT변수에 추가
