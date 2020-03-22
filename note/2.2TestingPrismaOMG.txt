@@ -1,0 +1,5 @@
+Prisma는 GprahQL의 Playground에서 쿼리를 입력할 수 있다.
+
+여기서 DOCS와 SCHEMA를 확인할 수 있으며 자동으로 문법검사도 해준다.
+
+보통 데이터변경(INSERT, UPDATE, DELETE)는 Mutation이라고 부른다.
