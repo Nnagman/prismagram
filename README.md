@@ -4,6 +4,7 @@ instagram clone with Express + Prisma + React + React Native and NomadCoders
 
 ## User Stories
 
+- [ ] Log in
 - [ ] Like / Unlike a photo
 - [ ] Comment on a photo
 - [ ] Search by user
@@ -12,8 +13,7 @@ instagram clone with Express + Prisma + React + React Native and NomadCoders
 - [ ] Follow / Unfollow User
 - [ ] See the full photo
 - [ ] Edit my profile
-- [ ] Create account
-- [ ] Log in
+- [x] Create account
 - [ ] Upload a photo
 - [ ] Edit the photo (Delete)
 - [ ] See the feed
