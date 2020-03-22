@@ -8,3 +8,6 @@ npm install @babel/node, @babel/preset-env, @babel/core
 
 npm install morgan
 npm install graphql-tools, merge-graphql-schemas
+
+npm install -g prisma
+prisma init
