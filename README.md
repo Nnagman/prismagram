@@ -6,7 +6,7 @@ instagram clone with Express + Prisma + React + React Native and NomadCoders
 
 - [x] Create account
 - [x] Request Secret
-- [ ] Confirm Secret (Login)
+- [x] Confirm Secret (Login)
 - [ ] Like / Unlike a photo
 - [ ] Comment on a photo
 - [ ] Search by user
