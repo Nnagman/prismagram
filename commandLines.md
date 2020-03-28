@@ -19,3 +19,5 @@ git push origin master --force
 npm intall nodemailer
 
 npm install passport passport-jwt
+
+npm install jsonwebtoken
