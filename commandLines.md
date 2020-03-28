@@ -17,3 +17,5 @@ git push origin master --force
 //실수로 올린 파일들 전부 삭제하기
 
 npm intall nodemailer
+
+npm install passport passport-jwt
