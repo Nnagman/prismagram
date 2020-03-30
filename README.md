@@ -16,5 +16,5 @@ instagram clone with Express + Prisma + React + React Native and NomadCoders
 - [ ] See the full photo
 - [ ] Edit my profile
 - [ ] Upload a photo
-- [ ] Edit the photo (Delete)
 - [ ] See the feed
+- [ ] Edit the photo (Delete)
