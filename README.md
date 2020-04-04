@@ -12,9 +12,10 @@ instagram clone with Express + Prisma + React + React Native and NomadCoders
 - [x] Search by location
 - [x] Comment on a photo
 - [x] Follow / Unfollow User
-- [ ] See user profile
+- [x] See user profile
+- [x] Edit my profile
+- [ ] See MY profile
 - [ ] See the full photo
-- [ ] Edit my profile
 - [ ] Upload a photo
 - [ ] Edit the photo (Delete)
 - [ ] See the feed
