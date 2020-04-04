@@ -12,11 +12,5 @@ export default {
         posts
       };
     }
-  },
-  User: {
-    // parent는 해당 resolver를 call하는 사용자의 User 정보를 준다.
-    fullName: parent => {
-      return `${parent.firstName} ${parent.lastName}`;
-    }
   }
 };
