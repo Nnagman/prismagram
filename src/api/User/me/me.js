@@ -1,5 +1,4 @@
 import { prisma } from "../../../../generated/prisma-client";
-import { USER_FRAGMENT } from "../../../fragments";
 
 export default {
   Query: {
@@ -12,6 +11,12 @@ export default {
         user: userProfile,
         posts
       };
+    }
+  },
+  User: {
+    // parent는 해당 resolver를 call하는 사용자의 User 정보를 준다.
+    fullName: parent => {
+      return `${parent.firstName} ${parent.lastName}`;
     }
   }
 };
