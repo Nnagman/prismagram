@@ -19,10 +19,14 @@ export default {
         //aggregate 함수 내부의 count 함수로 쿼리문에 입력한 id를 가진 포스트의 좋아요 수를 likeCount에 담는다.
         .aggregate()
         .count();
+      const files = await prisma.post({ id }).files();
+      const user = await prisma.post({ id }).user();
       return {
         post,
         comments,
-        likeCount
+        likeCount,
+        files,
+        user
       };
     }
   }
