@@ -10,7 +10,7 @@ type User {
   posts: [Post!]
   likes: [Like!]
   comments: [Comment!]
-  chats: [Chat!]
+  rooms: [Room!]
   loginSecret: String
 }
 
@@ -43,7 +43,7 @@ type File {
   post: Post!
 }
 
-type Chat{
+type Room{
   id: ID! @id
   participants: [User!]!
   messages: [Message!]!
@@ -54,5 +54,5 @@ type Message{
   text: String!
   from: User! @relation(name: "From")
   to: User! @relation(name: "To")
-  chat: Chat!
+  room: Room!
 }
