@@ -5,9 +5,10 @@ export default {
     upload: async (_, args, { request, isAuthenticated }) => {
       isAuthenticated(request);
       const { user } = request;
-      const { caption, files } = args;
+      const { caption, files, location } = args;
       const post = await prisma.createPost({
         caption,
+        location,
         //Post를 작성하는 user는 요청을 보낸 user로 connect한다.
         user: { connect: { id: user.id } }
       });
